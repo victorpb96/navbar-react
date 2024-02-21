@@ -29,7 +29,7 @@ const Navbar = ({theme, setTheme}) => {
             <img src={theme == 'light' ? search_icon_light : search_icon_dark} alt="" />
         </div>
 
-        <img onClick={()=>{toggle_mode}} src={theme == 'light' ? search_icon_light : search_icon_dark} alt="" className='toggle-icon'/>
+        <img onClick={()=>{toggle_mode}} src={theme == 'light' ? toggle_light : toggle_dark} alt="" className='toggle-icon'/>
 
     </div>
   )
